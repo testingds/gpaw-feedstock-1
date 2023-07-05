@@ -6,6 +6,7 @@ source .scripts/logging_utils.sh
 
 set -xe
 
+export LC_CTYPE=UTF-8
 MINIFORGE_HOME=${MINIFORGE_HOME:-${HOME}/miniforge3}
 
 ( startgroup "Installing a fresh version of Miniforge" ) 2> /dev/null
